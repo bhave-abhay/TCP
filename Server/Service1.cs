@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace Server
 {
-    public partial class Service1 : ServiceBase
+    public partial class TCPService : ServiceBase
     {
-        public Service1()
+        public TCPService()
         {
             InitializeComponent();
         }
