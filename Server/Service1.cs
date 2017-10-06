@@ -19,10 +19,12 @@ namespace Server
 
         protected override void OnStart(string[] args)
         {
+            //Start TCP Listener
         }
 
         protected override void OnStop()
         {
+            //Stop TCP Listener
         }
     }
 }
